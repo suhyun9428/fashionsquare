@@ -1,0 +1,58 @@
+@import './css/Navi.css';
+@import './css/SelectButtons.css';
+@import './css/FontFace.css';
+@import './css/BrandList.css';
+@import './css/BrandFooter.css';
+@import './css/Header.css';
+@import './css/Category.css';
+@import './css/ItemCards.css';
+
+body, * {
+    margin: 0;
+    padding: 0;
+}
+body, table, input, textarea, select, button, th, td, p, dl, dt, dd, li, pre, div, ul, ol, h1, h2, h3, h4, h5, h6, form, fieldset, blockquote, legend{
+    font-family: -apple-system,BlinkMacSystemFont,Apple SD Gothic Neo,Roboto,Noto Sans CJK KR,Tahoma,"Noto Sans KR",sans-serif;
+}
+header{
+    display: block;
+}
+button{
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    touch-action: manipulation;
+}
+.for-a11y{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.box__container .box__select-language{
+    padding: 10px 0 9px;
+    border-bottom: 1px solid #f5f5f5;
+    background: #fafafa;
+    font-size: 0;
+    text-align: center;
+}
+.box__container .button__select-language{
+    display: inline-block;
+    padding: 0 16px;
+    margin: 0 14px;
+    font-size: 14px;
+    line-height: 38px;
+    color: #2c2c2c;
+    border-radius: 36px;
+    border: 0;
+}
+.box__container .button__select--active{
+    background: #5855e2;
+    color: #fff;
+}

@@ -1,0 +1,43 @@
+.box__items-wrap{
+  width: 100%;
+  max-width: 768px;
+}
+.box__items-wrap .list__items{
+  font-size: 0;
+}
+.box__items-wrap .list__items .list-item{
+  display: inline-block;
+  width: calc(50% - 10px);
+  margin: 5px;
+  vertical-align: top;
+}
+.box__items-wrap .list__items .list-item .link__category{
+text-decoration: none;
+}
+.box__items-wrap .list__items .list-item .image{
+width: 100%;
+}
+.box__item-description{
+  margin-top: 10px;
+}
+.text__fashionsquare{
+  display: inline-block;
+  width: 68px;
+}
+.text__fashionsquare .image__tag{
+  width: 100%;
+}
+.text__fashionsquare .text__brand{
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: top;
+  color: #222;
+  margin-left: 5px;
+}
+.box__items-wrap .list__items .list-item .text__title{
+  font-size: 12px;
+  color: #000;
+  line-height: 14px;
+  max-height: 28px;
+  overflow: hidden;
+}

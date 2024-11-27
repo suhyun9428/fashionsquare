@@ -1,0 +1,19 @@
+.box__navigation{
+    display: flex;
+    width: 100%;
+}
+.box__navigation .button__navi{
+    flex: 1 1 0;
+    border: 0;
+    border-bottom: 1px solid #eee;
+    background: transparent;
+    font-size: 16px;
+    font-family: "Gmarket Sans";
+    color: #616161;
+    line-height: 49px;
+    text-align: center;
+}
+.box__navigation .button__navi--active{
+    border-bottom: 1px solid #5855e2;
+    color: #222;
+}
